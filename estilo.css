@@ -1,0 +1,72 @@
+/* Fonte Adamina em todo site */
+body {
+  font-family: 'Adamina', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9e0ec; 
+  color: #6b2a71; 
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #e09bb0; 
+  margin: 0;
+  padding: 10px;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #6b2a71; /* roxo escuro */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+/* Formulário de contato */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid #e09bb0;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #6b2a71; /* roxo escuro */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e09bb0; /* rosa médio */
+  color: #6b2a71;
+}
