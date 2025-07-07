@@ -1,4 +1,4 @@
-/* Fonte Adamina em todo site */
+
 body {
   font-family: 'Adamina', serif;
   margin: 0;
@@ -22,7 +22,7 @@ nav li {
 }
 
 nav a {
-  color: #6b2a71; /* roxo escuro */
+  color: #6b2a71;
   text-decoration: none;
   font-weight: bold;
 }
@@ -31,7 +31,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Conteúdo principal */
+
 main {
   max-width: 800px;
   margin: 20px auto;
@@ -40,7 +40,7 @@ main {
   border-radius: 8px;
 }
 
-/* Formulário de contato */
+
 form {
   display: flex;
   flex-direction: column;
@@ -59,7 +59,7 @@ input, textarea {
 button {
   margin-top: 15px;
   padding: 10px;
-  background-color: #6b2a71; /* roxo escuro */
+  background-color: #6b2a71; 
   color: white;
   border: none;
   border-radius: 4px;
@@ -67,6 +67,6 @@ button {
 }
 
 button:hover {
-  background-color: #e09bb0; /* rosa médio */
+  background-color: #e09bb0; 
   color: #6b2a71;
 }
